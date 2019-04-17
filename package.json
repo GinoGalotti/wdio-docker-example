@@ -2,12 +2,9 @@
   "name": "webdriverio-boilerplate",
   "version": "3.0.0",
   "description": "boilerplate framework for testing using node and webdriverio",
-  "main": "wdio.conf.js",
+  "main": "wdio.conf.local.js",
   "scripts": {
-    "test": "node_modules/.bin/wdio examples/Amazon/wdio.conf.js",
-    "test:e2e": "node_modules/.bin/wdio examples/Amazon/wdio.conf.js --suite e2e",
-    "test:integration": "node_modules/.bin/wdio examples/Amazon/wdio.conf.js --suite integration",
-    "test:local": "node_modules/.bin/wdio examples/Amazon/wdio.conf.local.js --suite dev"
+    "test": "node_modules/.bin/wdio test/wdio.conf.local.js"
   },
   "dependencies": {
     "@wdio/browserstack-service": "^5.4.11",
@@ -34,12 +31,13 @@
     "mocha": "^5.2.0",
     "selenium-standalone": "^6.15.4",
     "wdio-chromedriver-service": "^5.0.0",
-    "webdriverio": "^5.4.17"
+    "webdriverio": "^5.4.17",
+    "uuid": "^3.3.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonyet/webdriverio-boilerplate.git"
+    "url": "https://github.com/GinoGalotti/wdio-example"
   },
-  "author": "jonathan terry",
+  "author": "gino galotti",
   "license": "MIT"
 }

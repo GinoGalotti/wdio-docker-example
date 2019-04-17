@@ -1,4 +1,4 @@
-require("dotenv").config();
+require('dotenv').config({silent: true})
 
 exports.config = {  
   services: ["firefox-profile", "selenium-standalone", "chromedriver"],

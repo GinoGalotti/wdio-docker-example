@@ -1,3 +1,17 @@
+# Disclaimer
+This is based on https://github.com/jonyet/webdriverio-boilerplate
+I just pick a simple project containing the very basics
+
+I have included my thoughts and ideas on the exercise on [this file](/Feedback.md).
+
+**Prerequisites**
+
+node
+
+it requires Java in order to run chromedriver
+
+
+
 # webriverio-boilerplate
 
 a front-end test automation framework using webdriverio and mocha, designed to be as simple as possible for beginners.
